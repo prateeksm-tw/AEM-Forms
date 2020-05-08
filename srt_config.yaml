@@ -1,0 +1,19 @@
+# =================================================================
+# SRT Configuration
+# =================================================================
+#Note - follow correct format to avoid parsing failures
+#e.g. <param name>:<space><param value>
+#locale: (mandatory field)Locale to be used for SRT. Supported locales [en/fr/de/ja].
+locale: en
+#aemTempDir: AEM Temp direcotry
+aemTempDir: D:\aem\author\crx-quickstart\temp
+#users: provide PDFG converting users list
+#users:
+# - user1
+# - user2
+users:
+ - Administrator
+#profile: select profile to run specific checks. Choose from [LCM], more will be added soon
+profile:
+#outputDir: directory where output files will be saved
+outputDir: D:\aem\author\crx-quickstart\output
